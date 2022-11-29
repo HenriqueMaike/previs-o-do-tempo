@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    background: #474bff;
+    background: -webkit-linear-gradient(124deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(124deg, #474bff 0%, #bc48ff 100%);
+    display: flex;
+}
+
+.lista-clima{
+    width: 100%;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.principal p{
+    line-height: 1.5;
+}
+
+.principal strong{
+    font-size: 16px;
+}
+
+/*Dias da semana*/
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.segundo{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/*formulario*/
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-style: none;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #0b0c55;
+    border-style: none;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #0b0d74;
+}
